@@ -1,14 +1,11 @@
 .logo {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16.8px;
-  line-height: 25px;
-  color: #fff;
-  span {
+    font-family: Poppins;
+    font-size: 20px;
     font-weight: 500;
-    font-size: 26.4px;
-    line-height: 40px;
-  }
+    line-height: 30px;
+    text-align: left;    
+    color: #fff;
+    text-decoration: none;
 }
 
 @media (max-width: 450px) {
