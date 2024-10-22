@@ -9,25 +9,38 @@ const Programs = () => {
             </div>
             <div className={styles.content}>
                 <h1>Programs</h1>
+                <h2> B.Tech. in Electrical & Electronics Engineering</h2>
                 <p>
-                    Our department offers undergraduate program in Electrical & Electronics Engineering. Our
-                    undergraduate program provides students with a strong foundation in
-                    core Electrical & Electronics Engineering subjects such as structural engineering,
-                    geotechnical engineering, transportation engineering, environmental
-                    engineering, and water resources engineering. Our department offers
-                    undergraduate program in Electrical & Electronics Engineering. Our undergraduate program
-                    provides students with a strong foundation in core Electrical & Electronics Engineering
-                    subjects such as structural engineering, geotechnical engineering,
-                    transportation engineering, environmental engineering, and water
-                    resources engineering.
+                The Bachelor's of Technology in Electrical and Electronics Engineering 
+                (B.Tech in EEE) is a four-year undergraduate program that delves into the 
+                design, analysis, and application of electrical and electronic systems. 
+                Students gain expertise in power generation and distribution, circuit design, 
+                electronics, and control systems.
+                </p>
+                <h2>M.Tech. in Electrical Drives & Control</h2>
+                <p>
+                The M.Tech. programme in Electrical Drives and Control is designed to provide 
+                students with a thorough understanding of both theoretical and practical aspects 
+                of electrical drives and control systems. It aims to equip them with advanced 
+                skills required for pursuing research in the field, as well as for employment 
+                in industries related to power electronics, drive systems development, and 
+                industrial automation. Additionally, the programme prepares students for 
+                opportunities in the rapidly growing electric vehicle and energy sectors. 
+                Graduates are also well-positioned for academic careers, qualifying them for 
+                faculty positions at prestigious institutions.
                 </p>
             </div>
             <div className={styles.card_section}>
-                <h3>/ Bachelor</h3>
+                <h3>Bachelor</h3>
                 <div className={styles.card}>
-                    <p>/&nbsp;Bachelor</p>
+                    <p>Bachelor</p>
                     <h3>Bachelor’s of Technology in Electrical & Electronics Engineering</h3>
                 </div>
+                <h3>Master</h3>
+                <div className={styles.card}>
+                    <p>Master</p>
+                    <h3>Master’s of Technology in Electrical & Electronics Engineering</h3>
+            </div>
             </div>
         </div>
     );

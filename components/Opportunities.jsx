@@ -10,13 +10,14 @@ const Opportunities = () => {
             <div className={styles.content}>
                 <h1>Opportunities</h1>
                 <p>
-                    A degree in Electrical & Electronics Engineering opens up a wide range of career
-                    opportunities. Our graduates find employment in various sectors,
-                    including construction companies, consulting firms, government
-                    agencies, research organizations, and academia. The demand for civil
-                    engineers is ever-growing, and our department strives to equip
-                    students with the skills and knowledge necessary to succeed in their
-                    chosen career paths.
+                The EEE department offers extensive career opportunities in research, power electronics, 
+                industrial automation, electric vehicles, and the energy sector. Graduates can pursue 
+                advanced studies or roles in industries like IT, electronic circuit design, and 
+                power systems. With hands-on experience from state-of-the-art labs in control 
+                systems, robotics, and power systems, students are well-prepared for real-world 
+                challenges. The department's IEEE Student Branch, along with workshops and 
+                expert talks, further enriches their practical skills and industry readiness, 
+                fostering well-rounded professionals.
                 </p>
             </div>
         </div>
