@@ -77,8 +77,8 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                         <Link href="/gallery">Gallery</Link>
                         <Link href="/faculty">Faculty</Link>
                         <Link href="/association">Association</Link>
-                        <Link href="/placements">Placements</Link>
-                        <Link href="/events">Events</Link>
+                        {/* <Link href="/placements">Placements</Link> */}
+                        {/* <Link href="/events">Events</Link> */}
                         <Link href="/facilities">Facilities</Link>
                         {/* {userExist ? (
               <Link href="#" onClick={setLogOut}>
@@ -105,8 +105,8 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                             <Link href="/achievements">Achievements</Link>
                             <Link href="/gallery">Gallery</Link>
                             <Link href="/faculty">Faculty</Link>
-                            <Link href="/association">Association</Link>
-                            <Link href="/placements">Placements</Link>
+                            {/* <Link href="/association">Association</Link>
+                            <Link href="/placements">Placements</Link> */}
                             <Link href="/events">Events</Link>
 
                             <Link href="/facilities">Facilities</Link>
