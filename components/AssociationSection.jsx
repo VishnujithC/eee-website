@@ -14,15 +14,15 @@ const AssociationSection = async () => {
     <div className={styles.main_wrapper}>
       <h3 className={styles.heading}>Core Team</h3>
       <div className={styles.wrapper}>
-        {faculties.map((faculty) => {
-          return (
+        {/* {faculties.map((faculty) => { */}
+          {/* return ( */}
             <FacultyCard
-              name={faculty.facultyName}
-              image={faculty.image}
-              designation={faculty.facultyDesignation}
+              // name={faculty.facultyName}
+              // image={faculty.image}
+              // designation={faculty.facultyDesignation}
             />
-          );
-        })}
+          {/* ); */}
+        {/* })} */}
       </div>
     </div>
   );
