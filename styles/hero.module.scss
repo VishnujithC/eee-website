@@ -38,14 +38,15 @@
       }
       .links {
         display: flex;
-        gap: 60px;
+        gap: 16px;
         a {
           color: var(--text-light);
           text-decoration: none;
           font-style: normal;
           font-weight: 400;
-          font-size: 21px;
+          font-size: 16px;
           line-height: 130%;
+
         }
       }
     }

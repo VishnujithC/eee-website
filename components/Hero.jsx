@@ -8,7 +8,7 @@ import Login from "./Login";
 import { isUserExist } from "@util/functions";
 import { usePathname } from "next/navigation";
 
-const Hero = ({ name, image }) => {
+const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) => {
     const [mobileNav, setMobileNav] = useState(false);
     const [isLogin, setIsLogin] = useState(false);
     const [userExist, setUserExist] = useState(false);
@@ -70,14 +70,16 @@ const Hero = ({ name, image }) => {
                     <div className={hero.links}>
                         {userExist && (
                             <Link href="/civil-library/file/1-mUzNBGS-gf0XxLc7yGUoOxFIniFsJUN">
-                                / Library
+                                Library
                             </Link>
                         )}
                         <Link href="/achievements">Achievements</Link>
                         <Link href="/gallery">Gallery</Link>
                         <Link href="/faculty">Faculty</Link>
                         <Link href="/association">Association</Link>
-                        {/* <Link href="/facilities">/ Facilities</Link> */}
+                        <Link href="/placements">Placements</Link>
+                        <Link href="/events">Events</Link>
+                        <Link href="/facilities">Facilities</Link>
                         {/* {userExist ? (
               <Link href="#" onClick={setLogOut}>
                 / Logout
@@ -96,15 +98,19 @@ const Hero = ({ name, image }) => {
                             <h1 style={{ cursor: "pointer" }} onClick={() => setMobileNav(false)}>X</h1>
                             {userExist && (
                                 <Link href="/civil-library/file/1-mUzNBGS-gf0XxLc7yGUoOxFIniFsJUN">
-                                    / Library
+                                    Library
                                 </Link>
                             )}
                             <Link href="/placements">Library</Link>
                             <Link href="/achievements">Achievements</Link>
                             <Link href="/gallery">Gallery</Link>
                             <Link href="/faculty">Faculty</Link>
-                            {/* <Link href="/facilities">/ Facilities</Link> */}
-                            {!!userExist ? (
+                            <Link href="/association">Association</Link>
+                            <Link href="/placements">Placements</Link>
+                            <Link href="/events">Events</Link>
+
+                            <Link href="/facilities">Facilities</Link>
+                            {/* {!!userExist ? (
                                 <Link href="#" onClick={setLogOut}>
                                     / Logout
                                 </Link>
@@ -112,11 +118,11 @@ const Hero = ({ name, image }) => {
                                 <Link href="#" onClick={setLogin}>
                                     / Login
                                 </Link>
-                            )}
+                            )} */}
                         </div>
                     ) : (
                         <p style={{ cursor: "pointer" }} className="d_lg_none" onClick={() => setMobileNav(true)}>
-                            / Menu
+                            Menu
                         </p>
                     )}
                 </nav>
@@ -124,8 +130,14 @@ const Hero = ({ name, image }) => {
             </div>
             <div className={`container ${hero.hero_text}`}>
                 <h1 className={hero.hero_heading}>
-                    Welcome to Department of <br />
-                    <span>Electrical & Electronics Engineering</span>
+                    {lineOneHeading}
+                    <br />
+                    <span>{lineTwoHeading}</span>
+
+                    
+                    {/* Welcome to Department of <br />
+                    <span>Electrical & Electronics Engineering</span> */}
+
                 </h1>
             </div>
             {isLogin && (
