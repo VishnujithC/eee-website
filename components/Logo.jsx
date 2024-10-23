@@ -1,4 +1,4 @@
-import logo from '@styles/logo.module.scss'
+import logo from '@styles/logo.module.scss';
 import Link from 'next/link';
 
 const Logo = () => {
