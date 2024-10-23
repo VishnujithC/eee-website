@@ -70,7 +70,7 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                     <div className={hero.links}>
                         {userExist && (
                             <Link href="/civil-library/file/1-mUzNBGS-gf0XxLc7yGUoOxFIniFsJUN">
-                                / Library
+                                Library
                             </Link>
                         )}
                         <Link href="/achievements">Achievements</Link>
@@ -79,7 +79,7 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                         <Link href="/association">Association</Link>
                         <Link href="/placements">Placements</Link>
                         <Link href="/events">Events</Link>
-                        <Link href="/facilities">/ Facilities</Link>
+                        <Link href="/facilities">Facilities</Link>
                         {/* {userExist ? (
               <Link href="#" onClick={setLogOut}>
                 / Logout
@@ -98,7 +98,7 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                             <h1 style={{ cursor: "pointer" }} onClick={() => setMobileNav(false)}>X</h1>
                             {userExist && (
                                 <Link href="/civil-library/file/1-mUzNBGS-gf0XxLc7yGUoOxFIniFsJUN">
-                                    / Library
+                                    Library
                                 </Link>
                             )}
                             <Link href="/placements">Library</Link>
@@ -109,8 +109,8 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                             <Link href="/placements">Placements</Link>
                             <Link href="/events">Events</Link>
 
-                            <Link href="/facilities">/ Facilities</Link>
-                            {!!userExist ? (
+                            <Link href="/facilities">Facilities</Link>
+                            {/* {!!userExist ? (
                                 <Link href="#" onClick={setLogOut}>
                                     / Logout
                                 </Link>
@@ -118,11 +118,11 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                                 <Link href="#" onClick={setLogin}>
                                     / Login
                                 </Link>
-                            )}
+                            )} */}
                         </div>
                     ) : (
                         <p style={{ cursor: "pointer" }} className="d_lg_none" onClick={() => setMobileNav(true)}>
-                            / Menu
+                            Menu
                         </p>
                     )}
                 </nav>
