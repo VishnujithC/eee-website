@@ -68,11 +68,6 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                     <Logo />
 
                     <div className={hero.links}>
-                        {userExist && (
-                            <Link href="/civil-library/file/1-mUzNBGS-gf0XxLc7yGUoOxFIniFsJUN">
-                                Library
-                            </Link>
-                        )}
                         <Link href="/achievements">Achievements</Link>
                         <Link href="/gallery">Gallery</Link>
                         <Link href="/faculty">Faculty</Link>
@@ -96,17 +91,12 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                     {mobileNav ? (
                         <div className={hero.mobile_links}>
                             <h1 style={{ cursor: "pointer" }} onClick={() => setMobileNav(false)}>X</h1>
-                            {userExist && (
-                                <Link href="/civil-library/file/1-mUzNBGS-gf0XxLc7yGUoOxFIniFsJUN">
-                                    Library
-                                </Link>
-                            )}
-                            <Link href="/placements">Library</Link>
+                            {/* <Link href="/placements">Library</Link> */}
                             <Link href="/achievements">Achievements</Link>
                             <Link href="/gallery">Gallery</Link>
                             <Link href="/faculty">Faculty</Link>
-                            {/* <Link href="/association">Association</Link>
-                            <Link href="/placements">Placements</Link> */}
+                            <Link href="/association">Association</Link>
+                            {/* <Link href="/placements">Placements</Link> */}
                             <Link href="/events">Events</Link>
 
                             <Link href="/facilities">Facilities</Link>
