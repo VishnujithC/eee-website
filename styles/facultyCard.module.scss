@@ -1,12 +1,12 @@
 .wrapper {
-  width: 250px;
-  height: 300px;
-  height: fit-content;
+  width: 60%;
+  height: 60%;
+  // height: fit-content;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 5px;
   img {
-    width: inherit;
-    height: 300px;
+    width: 100%;
+    // height: 300px;
     object-fit: cover;
   }
   .details_section {
@@ -46,7 +46,7 @@
 
 @media (max-width: 480px) {
   .wrapper {
-    width: 47%;
+    width: 100%;
     img {
       width: 100%;
     }
