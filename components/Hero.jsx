@@ -97,7 +97,7 @@ const Hero = ({ name, lineOneHeading, lineTwoHeading, miniSubHeading , image }) 
                             <Link href="/faculty">Faculty</Link>
                             <Link href="/association">Association</Link>
                             {/* <Link href="/placements">Placements</Link> */}
-                            <Link href="/events">Events</Link>
+                            {/* <Link href="/events">Events</Link> */}
 
                             <Link href="/facilities">Facilities</Link>
                             {/* {!!userExist ? (
