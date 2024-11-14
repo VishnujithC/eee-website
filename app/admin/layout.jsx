@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 const AdminRootLayout = ({ children }) => {
   const pathname = usePathname();
 
-  const tabs = ["Facilities", "Faculty", "Gallery", "Achievements", "Placement"];
+  const tabs = ["Facilities", "Faculty", "Gallery", "Achievements", "Placement", "Association"];
 
   return (
     <div className={`container py-5`}>

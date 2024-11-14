@@ -58,6 +58,8 @@ const About = () => {
                         skills.
                         </p>
                     </div>
+                    <br />
+                    <br />
                     <div>
                         <h3>Vision</h3>
                         <p className={about.text}>

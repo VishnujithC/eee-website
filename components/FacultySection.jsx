@@ -7,6 +7,9 @@ const FacultySection = async () => {
   const cookieStore = cookies()
 
   const faculties = await getDetailsFromFirebase("faculties");
+
+  console.log("hello")
+
   return (
     <div className={styles.main_wrapper}>
       <h3 className={styles.heading}>Meet our Faculities 🧑‍🏫</h3>

@@ -15,10 +15,13 @@ const Footer = () => {
         <div className={styles.links}>
           <p>Links</p>
           <div className={styles.line}></div>
-          <Link href="#">Library</Link>
-          <Link href="#">Gallery</Link>
-          <Link href="#">Achivements</Link>
-          <Link href="#">Faculty</Link>
+          <Link href="/achievements">Achievements</Link>
+          <Link href="/gallery">Gallery</Link>
+          <Link href="/faculty">Faculty</Link>
+          <Link href="/association">Association</Link>
+          {/* <Link href="/placements">Placements</Link> */}
+          {/* <Link href="/events">Events</Link> */}
+          <Link href="/facilities">Facilities</Link>
         </div>
       </div>
       <div className={styles.line}></div>

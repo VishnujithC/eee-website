@@ -4,10 +4,10 @@ import Hero from "@components/Hero";
 
 
 const FacilityPage = () => {
-  const imageUrl = "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l2aWwlMjBlbmdpbmVlcmluZyUyMGZhY2lsaXRpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60"
+  const imageUrl = "https://images.unsplash.com/photo-1599256630445-67b5772b1204?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   return (
     <>
-      <Hero name="Achievements" image={imageUrl} />
+      <Hero name="Facilities" lineTwoHeading={'Facilities'} image={imageUrl} />
       <FacilitiesSection />
       <Footer />
     </>
